@@ -1,0 +1,5 @@
+/* Solid background for Docsify coverpage */
+section.cover {
+  background: #12141d !important;
+  background-image: none !important;
+}
