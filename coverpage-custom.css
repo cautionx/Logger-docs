@@ -1,5 +1,66 @@
+/* Make the horizontal divider below the search bar match the sidebar background */
+/* Horizontal divider under search - FULL WIDTH */
+.sidebar hr {
+  border: none;
+  border-top: 2px solid #4c7881; /* match vertical line */
+  margin: 14px 0 10px 0; /* remove side margins */
+}
+
+/* Vertical line down the sidebar */
+.sidebar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: #4c7881;
+  z-index: 1;
+}
+
+/* Style the Docsify sidebar toggle/expander (hamburger) button and its container */
+.sidebar-toggle {
+  background: #12141d !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.sidebar-toggle span {
+  background: #4c7881 !important;
+}
+
+.sidebar {
+  background: #12141d !important;
+  background-image: none !important;
+}
+
+/* Remove the divider under the search bar */
+.sidebar .search {
+  border-bottom: 2px solid #4c7881 !important;
+}
+
+.sidebar .search input {
+  background: transparent !important;
+  color: #d1d1d1 !important;
+  border-color: #333 !important;
+}
+.sidebar .search input::placeholder {
+  color: #d1d1d1 !important;
+}
 /* Solid background for Docsify coverpage */
 section.cover {
+  background: #12141d !important;
+  background-image: none !important;
+}
+
+/* Apply the same background to all Docsify pages */
+body,
+.markdown-section {
+  background: #12141d !important;
+  background-image: none !important;
+}
+
+/* Apply the same background to the sidebar */
+.sidebar {
   background: #12141d !important;
   background-image: none !important;
 }

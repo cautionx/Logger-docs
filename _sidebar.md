@@ -1,3 +1,4 @@
-- **Getting started**
-
-- [W.I.P](/wip.md)
+* **Getting started**
+  * [Setup](/setup.md)
+  * [Suppress](/suppress.md)
+  * [Stop](/stop.md)

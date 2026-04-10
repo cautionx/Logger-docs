@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Logger Documentation</title>
-  <link rel="icon" type="image/png" href="./logger-cover.png">
+  <link rel="icon" type="image/png" href="./_media/logger.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -14,10 +14,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // make the name font white 
       name: 'Logger Docs',
       repo: '',
       coverpage: true,
       loadSidebar: true,
+      search: {
+        noData: 'No results!',
+        placeholder: 'Search'
+      },
+      themeColor: '#4c7881',
+      topMargin: 90, // default: 0
+      mergeNavbar: true,
+      name: '<span>Logger Docs</span>',
+      notFoundPage: '404.md',
+      onlyCover: true,
+
       // Always set the document title
       afterEach: function(html, next) {
         document.title = 'Logger Documentation';
