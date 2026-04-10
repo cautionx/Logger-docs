@@ -1,3 +1,67 @@
+/* Center the Docsify name/logo in the sidebar */
+.app-name, .sidebar .app-name {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100%;
+  text-align: center !important;
+}
+/* Improve Markdown table visibility in dark mode */
+.markdown-section table {
+  background: #181c24 !important;
+  border-collapse: collapse !important;
+  width: 100%;
+  margin-bottom: 1.5em;
+  color: #e3e6ee !important;
+}
+.markdown-section th, .markdown-section td {
+  border: 1px solid #4c7881 !important;
+  padding: 8px 12px;
+  text-align: left;
+}
+.markdown-section th {
+  background: #232837 !important;
+  color: #fff !important;
+}
+.markdown-section tr:nth-child(even) td {
+  background: #20232b !important;
+}
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+  color: #fff !important;
+  text-shadow: 0 1px 4px #000a;
+}
+/* Brighten and improve visibility of all text on doc pages */
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+  color: #fff !important; /* Headings: pure white */
+  text-shadow: 0 1px 4px #000a;
+}
+.markdown-section p,
+.markdown-section li,
+.markdown-section code,
+.markdown-section pre,
+.markdown-section table,
+.markdown-section td,
+.markdown-section th {
+  color: #e3e6ee !important; /* Body and code: bright grey */
+  text-shadow: 0 1px 2px #0006;
+}
+/* Make sidebar markdown navigation links and headers a bit bigger */
+.sidebar-nav {
+  font-size: 1.09em !important;
+}
+.sidebar-nav strong, .sidebar-nav .section-link, .sidebar-nav a {
+  font-size: 1.0em !important;
+}
 /* Make the horizontal divider below the search bar match the sidebar background */
 /* Horizontal divider under search - FULL WIDTH */
 .sidebar hr {
@@ -41,7 +105,8 @@
 .sidebar .search input {
   background: transparent !important;
   color: #d1d1d1 !important;
-  border-color: #333 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 .sidebar .search input::placeholder {
   color: #d1d1d1 !important;

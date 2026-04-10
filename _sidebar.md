@@ -1,4 +1,10 @@
 * **Getting started**
-  * [Setup](/setup.md)
-  * [Suppress](/suppress.md)
-  * [Stop](/stop.md)
+  * [Setup & Installation](/setup-installation.md)
+  * [Mute/Ignore Events](/mute-ignore-events.md)
+  * [Disable Logger](/disable-logging.md)
+
+* **Configuration**
+  * [Permissions](/permissions.md)
+  * [Webhooks](/webhooks.md)
+  * [Event Types](/event-types.md)
+  * [Troubleshooting](/troubleshooting.md)
